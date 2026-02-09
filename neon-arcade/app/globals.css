@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: var(--font-outfit), sans-serif;
+    --font-oswald: var(--font-oswald), sans-serif;
+
+    --color-primary: #ea1d2c;
+    --color-primary-hover: #c51624;
+    --color-dark: #0a0a0a;
+    --color-card: #121212;
+
+    --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    --animate-fade-in-up: fadeInUp 0.5s ease-out forwards;
+    --animate-glitch: glitch 1s linear infinite;
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes glitch {
+
+        2%,
+        64% {
+            transform: translate(2px, 0) skew(0deg);
+        }
+
+        4%,
+        60% {
+            transform: translate(-2px, 0) skew(0deg);
+        }
+
+        62% {
+            transform: translate(0, 0) skew(5deg);
+        }
+    }
+}
+
+/* Custom Utilities */
+@utility clip-path-polygon {
+    clip-path: polygon(10% 0, 100% 0, 100% 70%, 90% 100%, 0 100%, 0 30%);
+}
+
+@utility clip-path-diagonal {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 95% 100%, 0 100%);
+}
+
+@utility bg-noise {
+    background-image: url("/noise.png");
+}
+
+@utility bg-scanline {
+    background: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0) 50%,
+            rgba(0, 0, 0, 0.2) 50%,
+            rgba(0, 0, 0, 0.2));
+    background-size: 100% 4px;
+}
+
+body {
+    background-color: var(--color-dark);
+    color: white;
+    overflow-x: hidden;
+}
+
+::selection {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary);
+}
