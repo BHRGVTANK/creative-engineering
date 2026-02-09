@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer theme {
+  :root {
+    --background: #050505;
+    --foreground: #ffffff;
+    --primary: #ef4444;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 99px;
+  border: 2px solid #050505;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ef4444;
+}
+
+html {
+  scroll-behavior: auto;
+  /* Handled by Lenis mainly */
+}
+
+body {
+  background: #050505;
+  color: #eeeeee;
+  font-family: var(--font-inter), sans-serif;
+  overflow-x: hidden;
+  background-image:
+    radial-gradient(circle at 15% 50%, rgba(239, 68, 68, 0.03), transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(59, 130, 246, 0.03), transparent 25%);
+  background-attachment: fixed;
+}
+
+/* Smooth gradient text */
+.text-gradient {
+  background: linear-gradient(to right, #ef4444, #f87171);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Glass Card Utility */
+.glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
