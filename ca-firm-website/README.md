@@ -1,71 +1,62 @@
-# CA Firm Website - Professional Financial Solutions
+# CA Bhargav Tank & Associates - Professional CA Firm Website
 
-A premium, high-performance website for a Chartered Accountancy firm, built with **Next.js**, **Tailwind CSS**, and **Framer Motion**. This project features smooth animations, responsive design, and a professional aesthetic suitable for financial services.
+A premium, high-performance website for **CA Bhargav Tank & Associates**, a leading Chartered Accountancy firm. This project is built with a modern tech stack to provide a seamless, trust-inspiring experience for clients seeking financial and regulatory excellence.
 
 ## 🚀 Live Demo
-**[View Live on Vercel](https://creative-engineering-ca-firm.vercel.app)** *(Update with your actual Vercel URL)*
+**Production URL:** [https://ca-firm-website-ashy.vercel.app](https://ca-firm-website-ashy.vercel.app)
 
----
-
-## 📸 Screenshots
-
-### 🖥️ Desktop Preview
-![Home Page Hero](public/screenshots/hero.png)
-
-### 📱 Responsive Design
-<p align="center">
-  <img src="public/screenshots/features.png" width="400" alt="Features Section" />
-  <img src="public/screenshots/mobile.png" width="200" alt="Mobile View" />
-</p>
-
----
-
-## ✨ Features
-- **Modern UI/UX**: Professional blue and gold color palette with glassmorphism effects.
-- **Smooth Animations**: Powered by Framer Motion for a premium, interactive feel.
-- **Fully Responsive**: Optimized for desktop, tablet, and mobile devices.
-- **Service Sections**: Clear presentation of tax, audit, and consulting services.
-- **Contact Integration**: Functional lead generation forms and contact sections.
+## ✨ Key Features
+- **Corporate Aesthetics**: A sleek, professional design using a premium color palette (Navy Blue & Gold) tailored for the financial sector.
+- **Dynamic Services**: Detailed sections for all major compliance and advisory services with deep-dive pages.
+- **Interactive UX**: Smooth animations and transitions powered by Framer Motion.
+- **Industry Focused**: Specialized sections highlighting expertise in Startups, Manufacturing, Real Estate, and more.
+- **Knowledge Hub**: Integrated resources and articles section for latest tax updates and compliance guides.
+- **Fully Responsive**: Optimized for flawless performance across all devices (Mobile, Tablet, Desktop).
 
 ## 🛠️ Tech Stack
-- **Framework**: [Next.js 15 (App Router)](https://nextjs.org/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Frontend Framework**: [Next.js 15+ (App Router)](https://nextjs.org/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
 - **Animations**: [Framer Motion](https://www.framer.com/motion/)
 - **Icons**: [Lucide React](https://lucide.dev/)
+- **Utility Libraries**: `clsx`, `tailwind-merge`
 
----
+## 📂 Project Highlights
+### Core Services Offered:
+- Audit & Assurance
+- Income Tax Advisory
+- GST Compliance & Advisory
+- ROC & Company Law
+- Accounting & Bookkeeping
+- Business Advisory
+- Startup & MSME Services
+- Financial Consulting
+- Virtual CFO Services
+- International Taxation
 
-## 🛠️ Installation & Setup
+### 📂 Folder Structure
+- `/app`: Main routing and page layouts (About, Services, Industries, Contact).
+- `/components`: Reusable UI components (Navbar, Hero, ServicesGrid, etc.).
+- `/constants`: Centralized data store for site configuration and content.
+- `/public`: Optimized static assets and branding.
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/BHRGVTANK/creative-engineering.git
-   cd creative-engineering/ca-firm-website
-   ```
-
-2. **Install dependencies**:
+## 🏃 Local Development
+1. Clone the repository
+2. Install dependencies:
    ```bash
    npm install
    ```
-
-3. **Run the development server**:
+3. Run the development server:
    ```bash
    npm run dev
    ```
-
-4. **Build for production**:
+4. Build for production:
    ```bash
    npm run build
    ```
 
----
-
-## 📂 Project Structure
-- `/app`: Next.js App Router pages and layouts.
-- `/components`: Reusable UI components.
-- `/public`: Static assets and screenshots.
-- `/constants`: Configuration and static text data.
+## 📬 Contact Information
+- **Email**: contact@cabhargavtank.com
+- **Website**: [ca-firm-website-ashy.vercel.app](https://ca-firm-website-ashy.vercel.app)
 
 ---
-
-Built with ❤️ by **BHRGVTANK**
+*Created by [BHRGVTANK](https://github.com/BHRGVTANK)*
