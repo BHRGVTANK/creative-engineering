@@ -9,9 +9,9 @@
 
 ## 📸 Project Showcase
 
-![Project Screenshot](./public/screenshot.png)
+![Project Showcase](./public/images/1.png)
 
-*A premium, high-performance gaming studio website built to showcase "AAA" aesthetic and modern web performance.*
+*A premium, high-performance gaming studio website showcasing "AAA" aesthetic and modern web performance.*
 
 ---
 
