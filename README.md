@@ -4,9 +4,9 @@ A collection of thoughtfully built interface projects focused on turning ideas i
 
 ## Projects in this Workspace
 
-- **[CA Firm Website](./ca-firm-website)**: A premium professional website for CA Bhargav Tank & Associates.
-- **[MotionCraft Portfolio](./motioncraft-portfolio)**: Interactive design portfolio.
-- **[Neon Arcade](./neon-arcade)**: High-energy gaming landing page.
+- **[CA Firm Website](./ca-firm-website)**: A premium professional website for CA Bhargav Tank & Associates. 🔗 [Live](https://ca-firm-website-ashy.vercel.app)
+- **[MotionCraft Portfolio](./motioncraft-portfolio)**: Interactive design portfolio. 🔗 [Live](https://motioncraft-portfolio.vercel.app)
+- **[Neon Arcade](./neon-arcade)**: High-energy gaming landing page. 🔗 [Live](https://neon-arcade-psi.vercel.app)
 
 ## About
 
